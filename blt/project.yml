@@ -1,15 +1,16 @@
 project:
-  machine_name: blted8
-  prefix: BLT
-  human_name: 'BLTed 8'
+  machine_name: mpotter
+  prefix: mpotter
+  human_name: 'MPotter Test'
   profile:
-    name: lightning
+    name: standard
   local:
     protocol: http
-    hostname: 'local.${project.machine_name}.com'
+    hostname: 'www.irs.vm'
 git:
   default_branch: master
-  remotes: {  }
+  remotes:
+    - "mpottertest@svn-6377.devcloud.hosting.acquia.com:mpottertest.git"
 drush:
   aliases:
     remote: '${project.machine_name}.test'
