@@ -3,6 +3,9 @@ docroot/files
 docroot/sites/*/files
 docroot/sites/*/private
 
+# Ignore Acquia cloud stuff
+acquia-utils
+
 # Ignore PHPStorm-generated files
 .idea
 
