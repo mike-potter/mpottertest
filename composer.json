@@ -6,10 +6,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": {
-        "0": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        },
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
@@ -37,16 +33,14 @@
         "drupal/core": "^8.0",
         "drush/drush": "^8.1.8",
         "drupal/console": "~1.0",
-        "drupal/shield": "^1.0.0",
         "acquia/blt": "^8.3",
-        "acquia/lightning": "^2",
         "drupal/acquia_connector": "^1.5.0",
         "drupal/acsf": "^1.32.0",
-        "drupal/cog": "^1.0.0",
         "drupal/features": "^3.0.0",
         "drupal/memcache": "2.x-dev",
         "drupal/seckit": "^1.0.0-alpha2",
-        "drupal/security_review": "*"
+        "drupal/security_review": "*",
+        "drupal/shield": "^1.0.0"
     },
     "conflict": {
         "drupal/drupal": "*"
